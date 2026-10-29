@@ -1,0 +1,12 @@
+.coworkingview-spaces { list-style: none; margin: 0 0 1em; padding: 0; }
+.coworkingview-space { padding: .6em 0; border-bottom: 1px solid rgba(0, 0, 0, .1); }
+.coworkingview-space__title { font-weight: 600; }
+.coworkingview-space__where,
+.coworkingview-space__price { opacity: .75; }
+.coworkingview-space__where::before,
+.coworkingview-space__price::before { content: "· "; }
+.coworkingview-rates { width: 100%; border-collapse: collapse; margin: 0 0 1em; }
+.coworkingview-rates th,
+.coworkingview-rates td { text-align: left; padding: .4em .6em; border-bottom: 1px solid rgba(0, 0, 0, .1); }
+.coworkingview-credit { font-size: .85em; opacity: .7; }
+.coworkingview-error { color: #b32d2e; }
