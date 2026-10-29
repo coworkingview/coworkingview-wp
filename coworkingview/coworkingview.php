@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:       CoworkingView – Coworking Spaces & Office Prices
- * Plugin URI:        https://coworkingview.com/en/mcp
+ * Plugin URI:        https://github.com/coworkingview/coworkingview-wp
  * Description:       Show coworking spaces, private offices and market rates for a city, with operator-published prices, using shortcodes. No API key.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            CoworkingView
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'COWORKINGVIEW_VERSION', '0.1.0' );
+define( 'COWORKINGVIEW_VERSION', '0.1.1' );
 define( 'COWORKINGVIEW_DIR', plugin_dir_path( __FILE__ ) );
 define( 'COWORKINGVIEW_URL', plugin_dir_url( __FILE__ ) );
 

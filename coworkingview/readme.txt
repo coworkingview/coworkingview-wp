@@ -4,7 +4,7 @@ Tags: coworking, office space, real estate, prices, shortcode
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,7 +34,7 @@ Coverage includes [Berlin](https://coworkingview.com/en/coworking/berlin), [Muni
 
 * No API key, no account, no settings needed to start.
 * Responses are cached (12 hours by default) so your pages stay fast.
-* English, German and Spanish.
+* Space names, descriptions and links in English, German or Spanish (`locale="…"`). The plugin's own interface is in English and translation-ready.
 * Light markup with a small stylesheet that inherits your theme's fonts and colours.
 * Nothing is shown to visitors when the data is unavailable; editors see why.
 
@@ -78,13 +78,10 @@ This plugin connects to the CoworkingView API (https://api.coworkingview.com) to
 
 The service is provided by CoworkingView: [terms of use](https://coworkingview.com/en/terms), [privacy policy](https://coworkingview.com/en/privacy).
 
-== Screenshots ==
-
-1. A list of private offices in Berlin rendered by `[coworkingview_spaces]`.
-2. Market rates in Madrid rendered by `[coworkingview_rates]`.
-3. The settings page.
-
 == Changelog ==
+
+= 0.1.1 =
+* Readme: interface language clarified; Plugin URI points to the plugin's own page.
 
 = 0.1.0 =
 * First release: `[coworkingview_spaces]` and `[coworkingview_rates]`, settings page, caching.
